@@ -1,14 +1,14 @@
 [
-  {
-    "stage_id": 1,
-    "room_ref": "cave_entrance",
-    "enemy_ref": null,
-    "loot_ref": ["torch"]
-  },
-  {
-    "stage_id": 2,
-    "room_ref": "underground_lake",
-    "enemy_ref": "water_slime",
-    "loot_ref": []
-  }
+    {
+        "stage_id": 0,
+        "name": "Вхід у підземелля",
+        "description": "Ти стоїш перед темною аркою. Пахне сирістю.",
+        "loot": ["rusty_sword"]
+    },
+    {
+        "stage_id": 1,
+        "name": "Довгий коридор",
+        "description": "Стіни вкриті мохом. Попереду видно світло.",
+        "loot": ["health_potion"]
+    }
 ]

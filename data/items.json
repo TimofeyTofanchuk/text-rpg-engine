@@ -1,0 +1,16 @@
+{
+    "rusty_sword": {
+        "name": "Іржавий меч",
+        "type": "weapon",
+        "damage": 10,
+        "element": "physical",
+        "slots": 1,
+        "description": "Старий, але ще гострий."
+    },
+    "health_potion": {
+        "name": "Зілля лікування",
+        "type": "consumable",
+        "effect_value": 25,
+        "description": "Відновлює 25 HP."
+    }
+}
