@@ -1,16 +1,38 @@
 {
-    "rusty_sword": {
-        "name": "Іржавий меч",
+    "iron_sword": {
+        "name": "Залізний меч",
         "type": "weapon",
         "damage": 10,
         "element": "physical",
         "slots": 1,
-        "description": "Старий, але ще гострий."
+        "description": "Надійний клинок стражника. Гострий і важкий."
+    },
+    "wooden_shield": {
+        "name": "Дерев'яний щит",
+        "type": "weapon",
+        "damage": 2,
+        "element": "physical",
+        "slots": 1,
+        "description": "Старий щит. Краще, ніж нічого."
+    },
+    "valyrian_sword": {
+        "name": "Меч з валірійської сталі",
+        "type": "weapon",
+        "damage": 25,
+        "element": "fire",
+        "slots": 1,
+        "description": "Легендарний клинок, викований за допомогою магії. Він випромінює яскраве світло, згубне для темряви."
     },
     "health_potion": {
-        "name": "Зілля лікування",
+        "name": "Мале зілля лікування",
         "type": "consumable",
-        "effect_value": 25,
-        "description": "Відновлює 25 HP."
+        "effect_value": 30,
+        "description": "Відновлює 30 здоров'я."
+    },
+    "great_potion": {
+        "name": "Велике еліксир",
+        "type": "consumable",
+        "effect_value": 70,
+        "description": "Повністю загоює глибокі рани (70 HP)."
     }
 }
